@@ -4,7 +4,7 @@
 target 'animated-validator-swift' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
+pod 'SnapKit', '~> 3.0.2'
   # Pods for animated-validator-swift
 
   target 'animated-validator-swiftTests' do
@@ -13,6 +13,7 @@ target 'animated-validator-swift' do
     pod 'Quick'
     pod 'Nimble'
     pod 'KIF'
+
 
   end
 
